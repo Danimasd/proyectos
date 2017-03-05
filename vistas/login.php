@@ -9,8 +9,9 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <script src="../controladores/ctrl_login.js" type="text/javascript"></script>
     <script type="text/javascript" src="../jquery/jquery.min.js"></script>
+    <script src="../controladores/ctrl_login.js" type="text/javascript"></script>
+
     <script src="../controladores/ctrl_login.js" type="text/javascript"></script>
     <script type="text/javascript" src="../jquery/bootstrap.min.js"></script>
     <script type="text/javascript" src="../jquery/jquery.dataTables.js"></script>
@@ -45,7 +46,7 @@
                         <div style="margin-top:10px" class="form-group">
                             <div class="col-sm-12 controls">
                                 <center>
-                                    <button type="button" onclick="inicio()" id="inicio" class="btn btn-primary"> Iniciar Sesión</button>
+                                    <button type="button" onclick="inicio()" class="btn btn-primary"> Iniciar Sesión</button>
                                 </center>
                             </div>
                         </div>

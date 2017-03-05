@@ -1,9 +1,8 @@
-
-
 $(document).ready(function () {
-alert("go")
+    alert("go");
 });
+
 function inicio()
 {
-    alert("boton")
+    alert("gho")
 }
