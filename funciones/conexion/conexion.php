@@ -3,7 +3,7 @@
 $url = "localhost";
 $usuario = "root";
 $clave = "";
-$db = "inventario";
+$db = "instituto";
 $conexion = mysqli_connect($url, $usuario, $clave, $db);
 
 if ($conexion) {
