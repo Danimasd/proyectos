@@ -1,6 +1,7 @@
 <?php
 include 'encabezado.php';
 ?>
+<script src="../controladores/ctrl_informacion_empresa.js" type="text/javascript"></script>
 <body>
     <div class="container-fluid">
         <div class="jumbotron">
@@ -37,7 +38,7 @@ include 'encabezado.php';
             <br>
             <div class="row">
                 <div class="col-md-1"></div>	
-                <div class="col-md-2"><button  id="guardar" class="btn pull-left btn-success"></button></div>
+                <div class="col-md-2"><button   onclick="see()" id="guardar" class="btn pull-left btn-success">Ingresar Información</button></div>
             </div>
             <br>
             <br>

@@ -4,13 +4,13 @@ include 'encabezado.php';
 <div class="container-fluid">
     <div class="">
         <h2>Infomación de la Empresa</h2>
-        
+
         <hr>
         <br>
         <form  id="form1">
             <div class="row">
                 <div class="col-md-2"><label for="">Nombre Instituto:</label></div>
-                <div class="col-md-4"><input type="text" maxlength="50" name="Nombre" id="Nombre" class="form-control" 
+                <div class="col-md-4"><input type="text" maxlength="50" placeholder="Nombre de la Institución" name="Nombre" id="Nombre" class="form-control" 
                                              value=""></div>	
             </div>
             <br>
@@ -21,7 +21,7 @@ include 'encabezado.php';
             <br>
             <div class="row">
                 <div class="col-md-2"><label for="">Telefono:</label></div>
-                <div class="col-md-4"><input type="text" maxlength="50" name="Telefono" id="Telefono" 
+                <div class="col-md-4"><input type="" maxlength="50" name="Telefono" id="Telefono" 
                                              class="form-control" value=""></div>	
             </div>
             <br>
