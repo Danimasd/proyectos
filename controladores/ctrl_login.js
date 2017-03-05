@@ -1,8 +1,27 @@
 $(document).ready(function () {
-    alert("go");
+
 });
 
 function inicio()
 {
-    alert("gho")
+    $("#mensaje").text("");
+    var usuario = $("#usuario").val()
+    var clave = $("#clave").val();
+    if ($.trim(usuario).length > 2)
+    {
+        if ($.trim(clave).length > 2)
+        {
+            $.post('../functions/wsMain.php', {action: 'cbxgetSede'}, function (data) {
+                $("#parentSede").append(data);
+                $("#ChildSede").append(data);
+            });
+        } else
+        {
+            $("#mensaje").html("<div class='text text-center text-danger'>La clave es requerido</center></div>");
+        }
+    } else
+    {
+        $("#mensaje").html("<div class='text text-center text-danger'>El usuario es requerido</center></div>");
+    }
 }
+

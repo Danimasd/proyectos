@@ -11,8 +11,6 @@
     <!-- Custom styles for this template -->
     <script type="text/javascript" src="../jquery/jquery.min.js"></script>
     <script src="../controladores/ctrl_login.js" type="text/javascript"></script>
-
-    <script src="../controladores/ctrl_login.js" type="text/javascript"></script>
     <script type="text/javascript" src="../jquery/bootstrap.min.js"></script>
     <script type="text/javascript" src="../jquery/jquery.dataTables.js"></script>
     <script type="text/javascript" src="../jquery/bootstrap-datepicker.js"></script>
