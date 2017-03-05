@@ -11,7 +11,18 @@ function inicio()
     {
         if ($.trim(clave).length > 2)
         {
-            $.post('../functions/wsMain.php', {action: 'cbxgetSede'}, function (data) {
+            $.post('../modelo/webserver.php', {action: "inicio_session", usuario: usuario, clave: clave}, function (data) {
+                if (data == 1)
+                {
+                    $("#mensaje").html("<center class='text text-success'> <img src='../img/gif-load.gif'> Iniciando Sessión.. </center>");
+                    setTimeout(function ()
+                    {
+                        window.location.href = "../vistas/informacion.php";
+                    }, '2000');
+                } else
+                {
+
+                }
             });
         } else
         {
