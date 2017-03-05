@@ -4,6 +4,7 @@ include 'encabezado.php';
 <div class="container-fluid">
     <div class="">
         <h2>Infomación de la Empresa</h2>
+        
         <hr>
         <br>
         <form  id="form1">
