@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
 });
-
 function inicio()
 {
     $("#mensaje").text("");

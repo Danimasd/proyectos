@@ -13,15 +13,15 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.dataTables.js"></script>
-     <script type="text/javascript" src="../js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="../jquery/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="../jquery/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../jquery/jquery.dataTables.js"></script>
+     <script type="text/javascript" src="../jquery/bootstrap-datepicker.js"></script>
     <link href="../css/dashboard.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/jquery.dataTables.css">
     
     <link rel="stylesheet" type="text/css" href="../css/Tablas.css">
-	    <link rel="stylesheet" type="text/css" href="../css/local.css" />
+	    <link rel="stylesheet" type="text/css" href="../css/local.css" />s
     <link rel="stylesheet" href="../css/iconos/css/font-awesome.min.css">
   </head>
     <div id="wrapper">
