@@ -12,8 +12,6 @@ function inicio()
         if ($.trim(clave).length > 2)
         {
             $.post('../functions/wsMain.php', {action: 'cbxgetSede'}, function (data) {
-                $("#parentSede").append(data);
-                $("#ChildSede").append(data);
             });
         } else
         {
